@@ -1,0 +1,8 @@
+production: &default
+  log_file: <%= ENV.fetch('LOG_FILE', '') %>
+  error_log_file: <%= ENV.fetch('ERROR_LOG_FILE', '') %>
+development:
+  <<: *default
+test:
+  <<: *default
+  internal_api_shared_secret: test

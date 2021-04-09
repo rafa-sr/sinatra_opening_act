@@ -1,0 +1,26 @@
+version: '3'
+services:
+  ruby:
+    build: .
+    ports:
+      - "3000:3000"
+
+  swagger-ui:
+    image: swaggerapi/swagger-ui
+    container_name: 'cerberus-swagger-ui'
+    ports:
+      - "3200:8080"
+    volumes:
+      - $PWD/docs/openapi.yaml:/openapi.yaml
+    environment:
+      - SWAGGER_JSON=/openapi.yaml
+
+  swagger-editor:
+    image: swaggerapi/swagger-editor
+    container_name: 'cerberus-swagger-editor'
+    ports:
+      - "3201:8080"
+    volumes:
+      - $PWD/docs/openapi.yaml:/openapi.yaml
+    environment:
+      - URL=/openapi.yaml

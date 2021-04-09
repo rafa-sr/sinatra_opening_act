@@ -1,0 +1,90 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/rsolorzano/workspace/wakoopa/cerberus/app.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1
+        ]
+      },
+      "/Users/rsolorzano/workspace/wakoopa/cerberus/controllers/base.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          8,
+          8,
+          null,
+          null,
+          1,
+          9,
+          9,
+          null,
+          9,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          5,
+          null
+        ]
+      },
+      "/Users/rsolorzano/workspace/wakoopa/cerberus/controllers/ping.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          2,
+          null
+        ]
+      }
+    },
+    "timestamp": 1617881639
+  }
+}
